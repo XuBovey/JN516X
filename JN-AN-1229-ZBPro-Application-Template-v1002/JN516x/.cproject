@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.beyondsemi.toolchain.gnu.ba.elf.base.908471266">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.beyondsemi.toolchain.gnu.ba.elf.base.908471266" moduleId="org.eclipse.cdt.core.settings" name="Router">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration buildProperties="" description="debug build for Router on JN5169" id="com.beyondsemi.toolchain.gnu.ba.elf.base.908471266" name="Router" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="com.beyondsemi.toolchain.gnu.ba.elf.base.908471266.2139739120" name="/" resourcePath="">
+						<toolChain id="com.beyondsemi.toolchain.gnu.ba.elf.base.429399071" name="BA ELF GNU toolchain" superClass="com.beyondsemi.toolchain.gnu.ba.elf.base">
+							<targetPlatform binaryParser="org.eclipse.cdt.core.ELF" id="com.beyondsemi.target.gnu.platform.ba.elf.400850026" superClass="com.beyondsemi.target.gnu.platform.ba.elf"/>
+							<builder arguments="TRACE=1 JENNIC_CHIP=JN5168 JENNIC_CHIP_FAMILY=JN516x" buildPath="${ProjDirPath}/../AN1229_ZBP_Router/Build" command="make" id="com.beyondsemi.builder.cdt.gnu.1040736670" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="com.beyondsemi.builder.cdt.gnu"/>
+							<tool id="com.beyondsemi.tool.gnu.ba.elf.compiler.c.base.1299463582" name="BA ELF GNU C compiler" superClass="com.beyondsemi.tool.gnu.ba.elf.compiler.c.base">
+								<inputType id="com.beyondsemi.base.ba.elf.c.compiler.input.662600528" superClass="com.beyondsemi.base.ba.elf.c.compiler.input"/>
+								<inputType id="com.beyondsemi.assembler.macro.input.1953699546" superClass="com.beyondsemi.assembler.macro.input"/>
+							</tool>
+							<tool id="com.beyondsemi.tool.gnu.ba.elf.compiler.cpp.base.602065766" name="BA ELF GNU C++ compiler" superClass="com.beyondsemi.tool.gnu.ba.elf.compiler.cpp.base">
+								<inputType id="com.beyondsemi.base.ba.elf.cpp.compiler.input.1050919445" superClass="com.beyondsemi.base.ba.elf.cpp.compiler.input"/>
+							</tool>
+							<tool id="com.beyondsemi.tool.gnu.ba.elf.linker.c.base.858979165" name="BA ELF GNU C linker" superClass="com.beyondsemi.tool.gnu.ba.elf.linker.c.base"/>
+							<tool id="com.beyondsemi.tool.gnu.ba.elf.linker.cpp.base.1025428687" name="BA ELF GNU C++ linker" superClass="com.beyondsemi.tool.gnu.ba.elf.linker.cpp.base">
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.215406064" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.beyondsemi.tool.gnu.ba.elf.assembler.base.1639966823" name="BA ELF GNU assembler" superClass="com.beyondsemi.tool.gnu.ba.elf.assembler.base">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1657919054" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+								<inputType id="com.beyondsemi.assembler.input.1955780462" superClass="com.beyondsemi.assembler.input"/>
+							</tool>
+							<tool id="com.beyondsemi.tool.gnu.ba.elf.archiver.base.1763846522" name="BA ELF GNU archiver" superClass="com.beyondsemi.tool.gnu.ba.elf.archiver.base"/>
+							<tool id="com.beyondsemi.tool.gnu.ba.elf.size.base.1527205541" name="BA ELF GNU size" superClass="com.beyondsemi.tool.gnu.ba.elf.size.base"/>
+							<tool id="com.beyondsemi.tool.gnu.ba.elf.objcopy.base.1160470582" name="BA ELF GNU objcopy" superClass="com.beyondsemi.tool.gnu.ba.elf.objcopy.base"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.beyondsemi.toolchain.gnu.ba.elf.base.908471266.1972708848">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.beyondsemi.toolchain.gnu.ba.elf.base.908471266.1972708848" moduleId="org.eclipse.cdt.core.settings" name="Coordinator">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="JN-AN-1229-ZPS-Application-Template" buildProperties="" description="debug build for the Coordinator on JN5169" id="com.beyondsemi.toolchain.gnu.ba.elf.base.908471266.1972708848" name="Coordinator" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="com.beyondsemi.toolchain.gnu.ba.elf.base.908471266.1972708848." name="/" resourcePath="">
+						<toolChain id="com.beyondsemi.toolchain.gnu.ba.elf.base.206954981" name="BA ELF GNU toolchain" superClass="com.beyondsemi.toolchain.gnu.ba.elf.base">
+							<targetPlatform binaryParser="org.eclipse.cdt.core.ELF" id="com.beyondsemi.target.gnu.platform.ba.elf.1405811350" superClass="com.beyondsemi.target.gnu.platform.ba.elf"/>
+							<builder arguments="TRACE=1 JENNIC_CHIP=JN5168 JENNIC_CHIP_FAMILY=JN516x" buildPath="${ProjDirPath}/../AN1229_ZBP_Coordinator/Build" command="make" id="com.beyondsemi.builder.cdt.gnu.580451490" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="com.beyondsemi.builder.cdt.gnu"/>
+							<tool id="com.beyondsemi.tool.gnu.ba.elf.compiler.c.base.1339147658" name="BA ELF GNU C compiler" superClass="com.beyondsemi.tool.gnu.ba.elf.compiler.c.base">
+								<inputType id="com.beyondsemi.base.ba.elf.c.compiler.input.1465051267" superClass="com.beyondsemi.base.ba.elf.c.compiler.input"/>
+								<inputType id="com.beyondsemi.assembler.macro.input.1724004642" superClass="com.beyondsemi.assembler.macro.input"/>
+							</tool>
+							<tool id="com.beyondsemi.tool.gnu.ba.elf.compiler.cpp.base.116833503" name="BA ELF GNU C++ compiler" superClass="com.beyondsemi.tool.gnu.ba.elf.compiler.cpp.base">
+								<inputType id="com.beyondsemi.base.ba.elf.cpp.compiler.input.812782201" superClass="com.beyondsemi.base.ba.elf.cpp.compiler.input"/>
+							</tool>
+							<tool id="com.beyondsemi.tool.gnu.ba.elf.linker.c.base.1971522124" name="BA ELF GNU C linker" superClass="com.beyondsemi.tool.gnu.ba.elf.linker.c.base"/>
+							<tool id="com.beyondsemi.tool.gnu.ba.elf.linker.cpp.base.1605438688" name="BA ELF GNU C++ linker" superClass="com.beyondsemi.tool.gnu.ba.elf.linker.cpp.base">
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.632927368" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.beyondsemi.tool.gnu.ba.elf.assembler.base.240540434" name="BA ELF GNU assembler" superClass="com.beyondsemi.tool.gnu.ba.elf.assembler.base">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.2106557297" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+								<inputType id="com.beyondsemi.assembler.input.1405204849" superClass="com.beyondsemi.assembler.input"/>
+							</tool>
+							<tool id="com.beyondsemi.tool.gnu.ba.elf.archiver.base.733855597" name="BA ELF GNU archiver" superClass="com.beyondsemi.tool.gnu.ba.elf.archiver.base"/>
+							<tool id="com.beyondsemi.tool.gnu.ba.elf.size.base.1694060689" name="BA ELF GNU size" superClass="com.beyondsemi.tool.gnu.ba.elf.size.base"/>
+							<tool id="com.beyondsemi.tool.gnu.ba.elf.objcopy.base.1795594984" name="BA ELF GNU objcopy" superClass="com.beyondsemi.tool.gnu.ba.elf.objcopy.base"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.beyondsemi.toolchain.gnu.ba.elf.base.908471266.744102389">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.beyondsemi.toolchain.gnu.ba.elf.base.908471266.744102389" moduleId="org.eclipse.cdt.core.settings" name="SleepingEndDevice">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration buildProperties="" description="debug build for the End device on JN5169" id="com.beyondsemi.toolchain.gnu.ba.elf.base.908471266.744102389" name="SleepingEndDevice" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="com.beyondsemi.toolchain.gnu.ba.elf.base.908471266.744102389." name="/" resourcePath="">
+						<toolChain id="com.beyondsemi.toolchain.gnu.ba.elf.base.1459513973" name="BA ELF GNU toolchain" superClass="com.beyondsemi.toolchain.gnu.ba.elf.base">
+							<targetPlatform binaryParser="org.eclipse.cdt.core.ELF" id="com.beyondsemi.target.gnu.platform.ba.elf.928722295" superClass="com.beyondsemi.target.gnu.platform.ba.elf"/>
+							<builder arguments="TRACE=1 JENNIC_CHIP=JN5168 JENNIC_CHIP_FAMILY=JN516x" buildPath="${ProjDirPath}/../AN1229_ZBP_SleepingEndDevice/Build" command="make" id="com.beyondsemi.builder.cdt.gnu.196999245" keepEnvironmentInBuildfile="true" managedBuildOn="false" name="Gnu Make Builder" superClass="com.beyondsemi.builder.cdt.gnu"/>
+							<tool id="com.beyondsemi.tool.gnu.ba.elf.compiler.c.base.2122900452" name="BA ELF GNU C compiler" superClass="com.beyondsemi.tool.gnu.ba.elf.compiler.c.base">
+								<inputType id="com.beyondsemi.base.ba.elf.c.compiler.input.1307376671" superClass="com.beyondsemi.base.ba.elf.c.compiler.input"/>
+								<inputType id="com.beyondsemi.assembler.macro.input.1132440170" superClass="com.beyondsemi.assembler.macro.input"/>
+							</tool>
+							<tool id="com.beyondsemi.tool.gnu.ba.elf.compiler.cpp.base.589527104" name="BA ELF GNU C++ compiler" superClass="com.beyondsemi.tool.gnu.ba.elf.compiler.cpp.base">
+								<inputType id="com.beyondsemi.base.ba.elf.cpp.compiler.input.1870046719" superClass="com.beyondsemi.base.ba.elf.cpp.compiler.input"/>
+							</tool>
+							<tool id="com.beyondsemi.tool.gnu.ba.elf.linker.c.base.1204904590" name="BA ELF GNU C linker" superClass="com.beyondsemi.tool.gnu.ba.elf.linker.c.base"/>
+							<tool id="com.beyondsemi.tool.gnu.ba.elf.linker.cpp.base.136862221" name="BA ELF GNU C++ linker" superClass="com.beyondsemi.tool.gnu.ba.elf.linker.cpp.base">
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.283770015" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.beyondsemi.tool.gnu.ba.elf.assembler.base.1497724038" name="BA ELF GNU assembler" superClass="com.beyondsemi.tool.gnu.ba.elf.assembler.base">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.73921361" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+								<inputType id="com.beyondsemi.assembler.input.147337859" superClass="com.beyondsemi.assembler.input"/>
+							</tool>
+							<tool id="com.beyondsemi.tool.gnu.ba.elf.archiver.base.1649255557" name="BA ELF GNU archiver" superClass="com.beyondsemi.tool.gnu.ba.elf.archiver.base"/>
+							<tool id="com.beyondsemi.tool.gnu.ba.elf.size.base.1620114741" name="BA ELF GNU size" superClass="com.beyondsemi.tool.gnu.ba.elf.size.base"/>
+							<tool id="com.beyondsemi.tool.gnu.ba.elf.objcopy.base.2120410112" name="BA ELF GNU objcopy" superClass="com.beyondsemi.tool.gnu.ba.elf.objcopy.base"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="JN-AN-1229-ZPS-Application-Template.null.958807658" name="JN-AN-1229-ZPS-Application-Template"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Default">
+			<resource resourceType="PROJECT" workspacePath="/JN-AN-1229-ZPS-Application-Template"/>
+		</configuration>
+		<configuration configurationName="SleepingEndDevice"/>
+		<configuration configurationName="Coordinator"/>
+		<configuration configurationName="Router">
+			<resource resourceType="PROJECT" workspacePath="/JN-AN-1229-ZPS-Application-Template"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="com.crt.config">
+		<projectStorage>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&#13;
+&lt;TargetConfig&gt;&#13;
+&lt;Properties property_0="" property_2="JN517x.cfx" property_3="NXP" property_4="JN5179" property_count="5" version="70200"/&gt;&#13;
+&lt;infoList vendor="NXP"&gt;&lt;info chip="JN5179" flash_driver="JN517x.cfx" match_id="0x0" name="JN5179" stub="crt_emu_cm3_gen"&gt;&lt;chip&gt;&lt;name&gt;JN5179&lt;/name&gt;&#13;
+&lt;family&gt;JN517x&lt;/family&gt;&#13;
+&lt;vendor&gt;NXP Semiconductor&lt;/vendor&gt;&#13;
+&lt;reset board="None" core="Real" sys="Real"/&gt;&#13;
+&lt;clock changeable="TRUE" freq="12MHz" is_accurate="TRUE"/&gt;&#13;
+&lt;memory can_program="true" id="Flash" is_ro="true" type="Flash"/&gt;&#13;
+&lt;memory id="RAM" type="RAM"/&gt;&#13;
+&lt;memory id="Periph" is_volatile="true" type="Peripheral"/&gt;&#13;
+&lt;memoryInstance derived_from="Flash" id="Flash512" location="0x80000" size="0x80000"/&gt;&#13;
+&lt;memoryInstance derived_from="RAM" id="RAM32" location="0x2000000" size="0x8000"/&gt;&#13;
+&lt;peripheralInstance derived_from="V7M_NVIC" determined="infoFile" id="NVIC" location="0xe000e000"/&gt;&#13;
+&lt;peripheralInstance derived_from="V7M_DCR" determined="infoFile" id="DCR" location="0xe000edf0"/&gt;&#13;
+&lt;peripheralInstance derived_from="SYS-CTRL" determined="infoFile" id="SYS-CTRL" location="0x40000000"/&gt;&#13;
+&lt;peripheralInstance derived_from="Timer0" determined="infoFile" id="Timer0" location="0x40006000"/&gt;&#13;
+&lt;peripheralInstance derived_from="Timer1" determined="infoFile" id="Timer1" location="0x40007000"/&gt;&#13;
+&lt;peripheralInstance derived_from="PWM1" determined="infoFile" id="PWM1" location="0x4000b000"/&gt;&#13;
+&lt;peripheralInstance derived_from="PWM2" determined="infoFile" id="PWM2" location="0x4000c000"/&gt;&#13;
+&lt;peripheralInstance derived_from="PWM3" determined="infoFile" id="PWM3" location="0x4000d000"/&gt;&#13;
+&lt;peripheralInstance derived_from="PWM4" determined="infoFile" id="PWM4" location="0x4000e000"/&gt;&#13;
+&lt;peripheralInstance derived_from="PWM5" determined="infoFile" id="PWM5" location="0x4000f000"/&gt;&#13;
+&lt;peripheralInstance derived_from="PWM6" determined="infoFile" id="PWM6" location="0x40010000"/&gt;&#13;
+&lt;peripheralInstance derived_from="TimerAP" determined="infoFile" id="TimerAP" location="0x40011000"/&gt;&#13;
+&lt;/chip&gt;&#13;
+&lt;processor&gt;&lt;name gcc_name="cortex-m3"&gt;Cortex-M3&lt;/name&gt;&#13;
+&lt;family&gt;Cortex-M&lt;/family&gt;&#13;
+&lt;/processor&gt;&#13;
+&lt;link href="JN517x_peripheral.xml" show="embed" type="simple"/&gt;&#13;
+&lt;/info&gt;&#13;
+&lt;/infoList&gt;&#13;
+&lt;/TargetConfig&gt;</projectStorage>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.beyondsemi.toolchain.gnu.ba.elf.base.908471266;com.beyondsemi.toolchain.gnu.ba.elf.base.908471266.2139739120;com.beyondsemi.tool.gnu.ba.elf.compiler.c.base.1299463582;com.beyondsemi.base.ba.elf.c.compiler.input.662600528">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.beyondsemi.base.elf.c.scanner.configdiscovery"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.beyondsemi.toolchain.gnu.ba.elf.base.908471266;com.beyondsemi.toolchain.gnu.ba.elf.base.908471266.2139739120;com.beyondsemi.tool.gnu.ba.elf.compiler.cpp.base.602065766;com.beyondsemi.base.ba.elf.cpp.compiler.input.1050919445">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.beyondsemi.base.elf.cpp.scanner.configdiscovery"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+</cproject>
