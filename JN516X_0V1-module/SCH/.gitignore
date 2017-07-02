@@ -1,0 +1,5 @@
+*.lob
+*.dml
+*.dbk
+/allegro/
+/signoise.run/
